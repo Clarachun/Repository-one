@@ -1,0 +1,355 @@
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    font-family: 'muli', sans-serif !important;
+}
+tbody {
+  width:600px;
+}
+.thurandial {
+  width:400px;
+  margin: 0px !important;
+}
+.rivendall {
+  height:400px;
+}
+.w3-navbar li a {
+    background-color: transparent;
+    font-size: 14px;
+}
+.w3-navbar li a:hover {
+    color: grey;
+    background-color: transparent;
+}
+.w3-black, .w3-hover-black:hover {
+    color: #000!important;
+    background-color: #fff!important;
+  }
+.w3-navbar {
+  background-color: transparent;
+}
+.frogs {
+  color: black;
+}
+.container {
+  width: 70%;
+}
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.w3-col.m8, .w3-twothird {
+    width: 100%;
+}
+
+.w3-content {
+  max-width: 100%;
+  margin: 0px;
+}
+
+.bgimg-1 {
+    background-image: url('file:///C:/Users/GWC/Downloads/folder/photos/computer%20header.jpg');
+    min-height: 150px;
+    margin-bottom: 10px;
+}
+
+.bgimg-2 {
+  min-height:200px;
+  background-colour: white;
+}
+
+.bgimg-4 {
+  min-height:700px;
+  background-colour:black;
+}
+.contact form {
+
+}
+
+.bgimg-4 h1 {
+  color:white;
+}
+
+#mybutton {
+  margin: auto;
+}
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+  cursor: pointer;
+}
+@media only screen and (min-width: 800px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+    .legolas {
+    width: 600px;
+    margin-left: 700px;
+}
+    #rectangle {
+      height: 100px;
+      width: 400px;
+      margin-left: 370px;
+      background-color: white;
+      opacity: 0.9;
+      margin-bottom: 20px;
+    }
+}
+
+.hitit {
+  background-image: url("http://i2.cdn.turner.com/cnnnext/dam/assets/160825160953-05-week-in-photos-0826-super-169.jpg");
+  height: 400px;
+}
+
+.btn {
+    background: white;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    color: black;
+}
+
+.btn:hover {
+    background: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+}
+
+a title:hover {
+  background:white;
+  color: black;
+  font-size: 12px;
+}
+
+.great {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 55px;
+  z-index: 1;
+}
+
+.great hr {
+  margin: 8px;
+  padding: 0px;
+  border-color: black;
+}
+
+.manuel {
+  width: 100%;
+  background-color: white;
+  margin: auto;
+}
+
+#myCarousel {
+  width: 60%;
+  margin: auto;
+}
+
+.manuel h1 {
+  font-size: 80px;
+  padding-left: 60px;
+  color: black;
+}
+
+.think {
+  background-color: black;
+}
+
+.think hr {
+  padding: 0px;
+  margin: 0px;
+  width: 60%;
+  margin: auto;
+}
+
+.footer {
+  height: 100px;
+  background-color: white;
+}
+
+.footer img {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+.opherion {
+  margin: auto;
+  width: 158px;
+  padding-top: 10px;
+}
+.opherion p {
+  color: black;
+  text-align: center;
+  padding-right: 5px;
+}
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: black; /* white fallback color */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+.overlay-content {
+    position: relative;
+    width: 50%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    top: 20%;
+    margin: auto;
+}
+.overlay a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .hey {
+    padding-left: 100px;
+  }
+  .hey > h2 {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+  }
+  .ho {
+    padding-left: 100px;
+  }
+  .ho > h2 {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+  }
+}
+@media screen and (max-width: 768px) {
+  .manuel {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+}
+@media screen and (max-width: 600px) {
+  .manuel {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+}
+@media screen and (max-width: 480px) {
+  .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+  }
+  .manuel {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+}
+@media only screen and (max-width : 320px) {
+  .manuel {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+}
+.funkytown {
+ width: 100%;
+ height: 100%;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-body {padding: 2px 16px;}
+.myButton {
+	background-color:#000;
+	border:1px transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:pink;
+  color:black;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.name h1 {
+  font-size: 80px;
+  margin-top: 100px;
+  color: black;
+}
