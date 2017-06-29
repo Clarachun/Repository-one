@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <ul class="w3-navbar" id="myNavbar">
+        <li><a href="index.html" class="frogs"><center>Clara Chun</center></a></li>
+        <li class="w3-hide-small w3-right">
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="/"><h1>home</h1></a>
+              <a href="aboutme.html"><h1>about</h1></a>
+              <a href="portfolio.html"><h1>portfolio</h1></a>
+            </div>
+          </div>
+        </li>
+      </div>
+      <span onclick="openNav()">
+        <div class="great"><hr><hr><hr></div>
+      </span>
+      </ul>
+    </div>
+
+    <div class="bgimg-1">
+      <div class="container">
+        <div class="name">
+          <div id="rectangle">
+            <h1><center>clara chun</center></h1>
+            <h3><center>I code cool ass shit.</center></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bgimg-2">
+      <div class="container">
+        <div class="rectangle-1">
+          <h1>A Mini About Me</h1>
+          <p>Hello! I'm Clara Chun. I'm 16-Years-Old and I go to Notre Dame Academy. I enjoy playing with robots,
+            writing, reading, and escessively going on tumblr. As well as Netflix, my favourite television show is
+            probably Doctor Who or Star Trek. I'm really into old ass movies, like 2001: A Space Odessey. My favourite
+          book series is probably Harry Potter. Oh! I forgot to mention, I also code cool ass shit.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+      <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-display-topright" title="Close Modal Image">&times;</span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+      </div>
+    </div>
+
+    <div class="w3-content w3-padding-64 w3-container">
+      <h3 class="w3-center">CONTACT US</h3>
+      <p class="w3-center"><em>We'd love to hear from you!</em></p>
+
+      <div class="rivendall">
+        <form name="contactform" method="post" action="send_form_email.php" class="legolas">
+          <table width="600px">
+            <tr>
+              <td valign="top">
+                <p for="first_name" style="font-family:'muli'; margin:0px;">First Name *</p></td>
+              <td valign="top">
+                <input type="text" name="first_name" maxlength="50" size="20"></td>
+              <td valign="top">
+                <p for="email">Email Address *</p></td>
+              <td valign="top">
+                <input  type="text" name="email" maxlength="80" size="20">
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <p for="last_name">Last Name *</p></td>
+              <td valign="top">
+                <input  type="text" name="last_name" maxlength="50" size="20"></td>
+              <td valign="top">
+                <p for="telephone">Telephone Number</p></td>
+              <td valign="top">
+                <input  type="text" name="telephone" maxlength="30" size="20"></td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <p for="comments">Comments *</p>
+              </td>
+              <td valign="top">
+                <textarea  name="comments" maxlength="1000" cols="30" rows="6"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <input type="submit" value="Submit">
+                <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+              </td>
+            </tr>
+          </table>
+        </form>
+
+        <div class="w3-row w3-padding-32 w3-section thurandial">
+        <div class="w3-col m4 ">
+        </div>
+        <div class="w3-col m8 w3-section">
+          <div class="container">
+            <div class="w3-large w3-margin-bottom">
+              <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a class="find" href="mailto:contact@framefinds.com" target="_top">email: contact@framefinds.com</a><br>
+              <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <a class="find" href="tel:1-310-866-5253">phone: (310) 866-5253</a><br>
+            </div>
+          </div>
+          <!---<div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Comment">
+          <button class="w3-btn w3-section w3-right">SEND MESSAGE</button>--->
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="footer">
+      <div class="opherion">
+        <img src="https://5a5a57ff32a328601212-ee0df397c56b146e91fe14be42fa361d.ssl.cf1.rackcdn.com/icon/instagram_logos_glyph/03H5cHNMt-Jni4pe9u+7/glyph-logo_May2016_200.png">
+        <img src="https://pbs.twimg.com/profile_images/492049081770864640/l-cBrf_6.png">
+        <img src="https://img.clipartfox.com/c66a4e3bc27a46a6075fa53cbc2beb90_facebook-symbol-facebook-clipart-black-and-white_626-626.jpeg">
+        <p>© frame finds</p>
+      </div>
+    </div>
+    <script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+    // Change style of navbar on scroll
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-black";
+        } else {
+            navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-black", "");
+        }
+    }
+    /* Open when someone clicks on the span element */
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>

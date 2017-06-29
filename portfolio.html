@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <title>About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <ul class="w3-navbar" id="myNavbar">
+        <li><a href="index.html" class="frogs"><center>Clara Chun</center></a></li>
+        <li class="w3-hide-small w3-right">
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#home"><h1>home</h1></a>
+              <a href="about"><h1>about</h1></a>
+              <a href="portfolio"><h1>portfolio</h1></a>
+            </div>
+          </div>
+        </li>
+      </div>
+      <span onclick="openNav()">
+        <div class="great"><hr><hr><hr></div>
+      </span>
+      </ul>
+    </div>
+
+    <div class="bgimg-1">
+      <div class="container">
+        <div class="name">
+          <div id="rectangle">
+            <h1><center>what i've worked on</center></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bgimg-2">
+      <div class="container">
+        <table>
+          <td style="width:500px">
+            <tr>
+            <div class="about">
+              <center><h1>Clara Chun</h1>
+              <h2>wanna be stargirl</h2>
+              <p>clara chun has wanted to be an astronaught since she was a bit too young to know what that word meant.
+              then she realised that her eyesight was much to shitty to ever be an astronaught. so she decided to become a
+              rockstar. with a lot of time and thinking she eventually decided she liked the idea of coding. so here she is
+              coding. mostly vaguely pretty websites to be honest.<br>
+              clara hates the hot and adores the cold, she also hates bugs, ignorrance, and slow walkers. however, she likes
+              sci-fi quite a lot. which doesn't actually explain for anything, but hey.<br>
+              clara was born january 13, 2001 in new york city and likes to describe her heritage as 'confusing'</p></center>
+            </div>
+            </tr>
+          </td>
+          <td>
+            <tr>
+              <img src="https://s-media-cache-ak0.pinimg.com/736x/43/87/fc/4387fca37decacfb77b232a271a40c81--inspirational-photos-bestfriends.jpg">
+            </tr>
+          </td>
+        </table>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="opherion">
+        <img src="https://5a5a57ff32a328601212-ee0df397c56b146e91fe14be42fa361d.ssl.cf1.rackcdn.com/icon/instagram_logos_glyph/03H5cHNMt-Jni4pe9u+7/glyph-logo_May2016_200.png">
+        <img src="https://pbs.twimg.com/profile_images/492049081770864640/l-cBrf_6.png">
+        <img src="https://img.clipartfox.com/c66a4e3bc27a46a6075fa53cbc2beb90_facebook-symbol-facebook-clipart-black-and-white_626-626.jpeg">
+        <p>© frame finds</p>
+      </div>
+    </div>
+    <script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+    // Change style of navbar on scroll
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-black";
+        } else {
+            navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-black", "");
+        }
+    }
+    /* Open when someone clicks on the span element */
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
