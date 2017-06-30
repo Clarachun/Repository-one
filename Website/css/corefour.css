@@ -122,7 +122,9 @@ tbody {
     border-radius: 4px;
     color: black;
 }
-
+.class img {
+  width: 60%;
+}
 a title:hover {
   background:white;
   color: black;
@@ -174,8 +176,11 @@ a title:hover {
 .footer {
   height: 100px;
   background-color: white;
+  padding-top: 10px;
 }
-
+.randomass {
+  margin-bottom: 10px;
+}
 .footer img {
   height: 40px;
   width: 40px;
