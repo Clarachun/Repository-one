@@ -1,68 +1,11 @@
 body, html {
+    height: 100%;
     color: #777;
     line-height: 1.8;
     font-family: 'muli', sans-serif !important;
-    height:100%;
-    padding: 0;
-    margin: 0;
 }
-#wrapper {
-    width: 100%;
-    overflow: hidden; /* will contain if #first is longer than #second */
-}
-.fuckshitup {
-  width: 50%;
-}
-#wrapper2 {
-    width: 100%;
-    overflow: hidden; /* will contain if #first is longer than #second */
-    padding-top: 10px;
-}
-#first {
-    width: 500px;
-    float:left; /* add this */
-}
-#second {
-    overflow: hidden; /* if you don't want #second to wrap below #first */
-}
-
-#first2 {
-    width: 50%;
-    float:left; /* add this */
-}
-#second2 {
-    overflow: hidden; /* if you don't want #second to wrap below #first */
-}
-#first3 {
-    float:left; /* add this */
-    width: 267.094px;
-}
-.class img {
-  width: 100%;
-}
-#second3 {
-    overflow: hidden; /* if you don't want #second to wrap below #first */
-    float: left;
-    width: 267.094px;
-    margin: auto;
-}
-#third3 {
-    overflow: hidden; /* if you don't want #second to wrap below #first */
-    float: left;
-    width: 267.094px;
-    margin: auto;
-}
-#four {
-    overflow: hidden; /* if you don't want #second to wrap below #first */
-    float: left;
-    width: 267.094px;
-    margin: auto;
-}
-footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
+tbody {
+  width:600px;
 }
 .thurandial {
   width:400px;
@@ -111,8 +54,7 @@ footer {
 
 .bgimg-1 {
     background-image: url('file:///C:/Users/GWC/Downloads/folder/website/photos/computer%20header.jpg');
-    min-height: 150px;
-    margin-bottom: 10px;
+    min-height: 500px;
 }
 
 .bgimg-2 {
@@ -152,12 +94,11 @@ footer {
     margin-left: 700px;
 }
     #rectangle {
-      height: 100px;
+      height: 150px;
       width: 400px;
       margin-left: 370px;
       background-color: white;
       opacity: 0.9;
-      margin-bottom: 20px;
     }
 }
 
@@ -179,6 +120,7 @@ footer {
     border-radius: 4px;
     color: black;
 }
+
 a title:hover {
   background:white;
   color: black;
@@ -230,11 +172,8 @@ a title:hover {
 .footer {
   height: 100px;
   background-color: white;
-  padding-top: 10px;
 }
-.randomass {
-  margin-bottom: 10px;
-}
+
 .footer img {
   height: 40px;
   width: 40px;
@@ -288,6 +227,12 @@ a title:hover {
 }
 
 @media screen and (max-width: 768px) {
+  .rectangle-1 {
+    height: 250px;
+    width: 500px;
+    border: 5px solid black;
+    background: transparent;
+  }
   .hey {
     padding-left: 100px;
   }
@@ -296,11 +241,27 @@ a title:hover {
     margin: 0px;
     color: black;
   }
+  .hey .rectangle-1 h2 {
+    padding-left: 420px;
+    margin: 0px;
+    color: black;
+  }
+  .rectangle-2 {
+    height: 300px;
+    width: 500px;
+    border: 5px solid black;
+    background: transparent;
+  }
   .ho {
     padding-left: 100px;
   }
   .ho > h2 {
     padding: 0px;
+    margin: 0px;
+    color: black;
+  }
+  .ho .rectangle-2 h2 {
+    padding-left: 400px;
     margin: 0px;
     color: black;
   }
@@ -407,8 +368,40 @@ a title:hover {
 	position:relative;
 	top:1px;
 }
+.shit {
+  margin: auto;
+  height: 58px;
+  width: 289.48px;
+  padding-top: 271px;
+}
+.find {
+  color: black;
+  text-decoration: none;
+}
+.find:hover {
+  color: pink;
+  text-decoration: none;
+}
 .name h1 {
   font-size: 80px;
   margin-top: 100px;
   color: black;
+}
+.rectangle-1 {
+  background-color: black;
+  height: 230px;
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+  border: none;
+}
+.rectangle-1 h1 {
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.rectangle-1 p {
+  color: white;
+  padding: 30px;
+  font-size: 15px;
 }
